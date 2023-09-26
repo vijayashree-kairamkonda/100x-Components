@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Components</title>
+    <link href="/dist/output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <main class="h-screen p-4 bg-black overflow-auto">
+      <!-- BUTTONS SECTION -->
+      <div class="text-amber-600 py-2 text-lg font-bold">BUTTONS :</div>
+
+      <section class="flex justify-around">
+        <div class="flex flex-col gap-3">
+          <div class="text-neutral-200 text-center">-Enable/hover-</div>
+          <button
+            class="bg-neutral-50 w-20.8rem py-2 font-bold text-center rounded-full hover:bg-neutral-200 disabled:opacity-50"
+          >
+            Create account
+          </button>
+
+          <button
+            class="bg-neutral-50 flex gap-2 justify-center items-center hover:bg-neutral-200 disabled:opacity-50 w-20.8rem py-2 font-bold text-center rounded-full"
+          >
+            <img src="../public/assets/google.svg" />
+            Sign up with Google
+          </button>
+          <button
+            class="bg-neutral-50 flex gap-2 justify-center items-center hover:bg-neutral-200 disabled:opacity-50 w-20.8rem py-2 font-bold text-center rounded-full"
+          >
+            <img src="../public/assets/apple.svg" />
+            Sign up with Apple
+          </button>
+          <button
+            class="bg-neutral-50 w-27.6rem py-3 font-bold text-center rounded-full hover:bg-neutral-200 disabled:opacity-50"
+          >
+            Next
+          </button>
+          <button
+            class="bg-twitter-default text-neutral-50 w-5.3rem py-3.5 font-bold text-center rounded-full hover:bg-twitter-hover"
+          >
+            Post
+          </button>
+          <button
+            class="bg-twitter-default text-neutral-50 w-13.8rem py-3.5 font-bold text-center rounded-full hover:bg-twitter-hover"
+          >
+            Post
+          </button>
+          <button
+            class="bg-twitter-default text-neutral-50 w-27.6rem py-3.5 font-bold text-center rounded-full hover:bg-twitter-hover"
+          >
+            Post
+          </button>
+          <button
+            class="bg-neutral-50 w-5.3rem py-2 font-bold text-center rounded-full hover:bg-neutral-200 disabled:opacity-50"
+          >
+            Follow
+          </button>
+          <div>
+            <div class="text-neutral-200 text-center my-2">-Outlined-</div>
+            <button
+              class="w-20.8rem py-2 border border-button-stroke text-twitter-default font-bold text-center rounded-full"
+            >
+              Sign up
+            </button>
+            <button
+              class="py-2 px-4 font-bold border border-solid border-stroke text-center text-neutral-50 rounded-full disabled:opacity-50"
+            >
+              Following
+            </button>
+          </div>
+        </div>
+        <div class="flex flex-col gap-3">
+          <div class="text-neutral-200 text-center">-Disabled State-</div>
+          <button
+            disabled
+            class="bg-neutral-50 w-20.8rem py-2 font-bold text-center rounded-full disabled:opacity-50"
+          >
+            Create account
+          </button>
+          <button
+            disabled
+            class="bg-neutral-50 flex gap-2 justify-center items-center disabled:opacity-50 w-20.8rem py-2 font-bold text-center rounded-full"
+          >
+            <img src="../public/assets/google.svg" />
+            Sign up with Google
+          </button>
+          <button
+            disabled
+            class="bg-neutral-50 flex gap-2 justify-center items-center disabled:opacity-50 w-20.8rem py-2 font-bold text-center rounded-full"
+          >
+            <img src="../public/assets/apple.svg" />
+            Sign up with Apple
+          </button>
+          <button
+            disabled
+            class="bg-neutral-50 w-27.6rem py-3 font-bold text-center rounded-full disabled:opacity-50"
+          >
+            Next
+          </button>
+          <button
+            disabled
+            class="bg-twitter-default text-neutral-50 w-5.3rem py-3.5 font-bold text-center rounded-full disabled:opacity-50"
+          >
+            Post
+          </button>
+          <button
+            disabled
+            class="bg-twitter-default text-neutral-50 w-13.8rem py-3.5 font-bold text-center rounded-full disabled:opacity-50"
+          >
+            Post
+          </button>
+          <button
+            disabled
+            class="bg-twitter-default text-neutral-50 w-27.6rem py-3.5 font-bold text-center rounded-full disabled:opacity-50"
+          >
+            Post
+          </button>
+          <button
+            disabled
+            class="bg-neutral-50 w-5.3rem py-2 font-bold text-center rounded-full disabled:opacity-50"
+          >
+            Follow
+          </button>
+        </div>
+      </section>
+
+      <div class="flex justify-around w-4/12 pb-1 border-b-2 my-6">
+        <button
+          class="border-twitter-default focus:border-b-2 focus:text-neutral-400 text-neutral-50"
+        >
+          For you
+        </button>
+        <button
+          class="border-twitter-default focus:border-b-2 text-neutral-50 focus:text-neutral-400"
+        >
+          Following
+        </button>
+      </div>
+
+      <!-- ICONS SECTION -->
+      <section>
+        <div class="text-amber-600 py-4 text-lg font-bold">ICONS :</div>
+        <div class="flex items-end justify-center">
+          <span><img src="../public/assets/100.svg" /></span
+          ><span><img src="../public/assets/Group 27162.svg" /></span>
+        </div>
+        <div class="flex gap-4 my-4 justify-center">
+          <img src="../public/assets/more-sv.svg" alt="more" />
+          <img src="../public/assets/comment-sv.svg" alt="cmt" />
+          <img src="../public/assets/retweet-sv.svg" alt="retweet" />
+          <img src="../public/assets/heart-sv.svg" alt="heart" />
+          <img src="../public/assets/reach-sv.png" alt="reach" />
+          <img src="../public/assets/share-sv.svg" alt="share" />
+          <img src="../public/assets/calendar-sv.svg" alt="calender" />
+          <img src="../public/assets/bookmark-sv.svg" alt="bookmark" />
+        </div>
+        <div class="flex gap-4 my-4 justify-center">
+          <img src="../public/assets/retweet-filled.svg" alt="retweet-true" />
+          <img src="../public/assets/heart-filled.svg" alt="heart-true" />
+          <img src="../public/assets/reach-filled.png" alt="reach-true" />
+          <img src="../public/assets/bookmark-filled.svg" alt="bookmark-true" />
+          <img src="../public/assets/share-filled.svg" alt="share-true" />
+        </div>
+        <div class="flex gap-4 my-4 justify-center">
+          <img src="../public/assets/cancel.svg" alt="cancel" />
+          <img src="../public/assets/back.svg" alt="back" />
+          <img src="../public/assets/settings.svg" alt="settings" />
+          <img src="../public/assets/correct.svg" alt="correct" />
+          <img src="../public/assets/camera.svg" alt="camera" />
+        </div>
+        <div class="flex gap-4 my-4 justify-center">
+          <img src="../public/assets/visible=T.svg" alt="visible" />
+          <img
+            src="../public/assets/visible=F.svg"
+            alt="visible-f"
+            class="bg-gray-700"
+          />
+        </div>
+        <div class="flex gap-4 my-4 justify-center">
+          <span class="text-neutral-200 text-center">Default : </span>
+          <img src="../public/assets/person.svg" />
+          <img src="../public/assets/home.svg" alt="home" />
+        </div>
+        <div class="flex gap-4 my-4 justify-center">
+          <span class="text-neutral-200 text-center">Selected : </span>
+          <img src="../public/assets/person-filled.svg" />
+          <img src="../public/assets/home-filled.png" alt="home-filled" />
+        </div>
+      </section>
+
+      <!-- INPUTS SECTION -->
+      <section class="py-8">
+        <div class="text-amber-600 py-2 text-lg font-bold">INPUTS :</div>
+        <div>
+          <span class="text-neutral-200 text-center">Default : </span>
+
+          <fieldset
+            class="w-4/12 group rounded border border-solid border-neutral-500 px-3 py-3 focus-within:border-twitter-default"
+          >
+            <legend
+              class="text-xs text-neutral-500 group-focus-within:text-twitter-default"
+            >
+              <div class="px-2">Label</div>
+            </legend>
+            <input
+              type="text"
+              placeholder="Label"
+              class="w-full pb-1 bg-transparent text-neutral-50 placeholder:text-neutral-500 focus:outline-none"
+            />
+          </fieldset>
+          <div class="my-4">
+            <span class="text-neutral-200 text-center">Selected : </span>
+
+            <fieldset
+              class="w-4/12 rounded border border-solid px-3 py-3 border-twitter-default"
+            >
+              <legend class="text-xs text-twitter-default">
+                <div class="px-2">Label</div>
+              </legend>
+              <div class="flex justify-end items-center relative">
+                <input
+                  type="text"
+                  placeholder="Label"
+                  class="w-full pb-1 bg-transparent text-neutral-50 placeholder:text-neutral-50 focus:outline-none"
+                />
+                <img
+                  src="../public/assets/correct.svg"
+                  class="absolute w-5"
+                  alt="correct Icon"
+                />
+              </div>
+            </fieldset>
+          </div>
+        </div>
+
+        <div class="my-8 flex gap-2 content-center">
+          <span class="text-neutral-200 text-center">Default : </span>
+
+          <img
+            class="rounded-7xl h-9 w-9 flex-shrink-0"
+            src="../public/assets/User avatar.png"
+          />
+          <input
+            type="text"
+            class="w-4/12 text-lg bg-transparent text-neutral-50 placeholder:text-neutral-500 focus:outline-none"
+            placeholder="What's happening?"
+          />
+        </div>
+        <div class="my-8 flex gap-2 content-center">
+          <span class="text-neutral-200 text-center">Selected : </span>
+
+          <img
+            class="rounded-7xl h-9 w-9 flex-shrink-0"
+            src="../public/assets/User avatar.png"
+          />
+          <input
+            type="text"
+            class="w-4/12 text-lg bg-transparent text-neutral-50 placeholder:text-neutral-50 focus:outline-none"
+            placeholder="Don't wish for it, work for it."
+          />
+        </div>
+
+        <span class="text-neutral-200 text-center">Default : </span>
+        <div
+          class="my-4 group flex items-center w-3/12 px-4 gap-x-4 p-2 rounded-full border border-searchbar-fill bg-searchbar-fill focus-within:border-twitter-default"
+        >
+          <svg
+            class="fill-[#737373] group-focus-within:fill-twitter-default"
+            xmlns="http://www.w3.org/2000/svg"
+            width="17"
+            height="17"
+            viewBox="0 0 17 17"
+            fill="none"
+          >
+            <path
+              d="M16.0446 15.2054L13.1471 12.3079C14.1961 11.065 14.8334 9.46109 14.8334 7.70834C14.8334 3.77375 11.643 0.583336 7.70837 0.583336C3.77379 0.583336 0.583374 3.77375 0.583374 7.70834C0.583374 11.6429 3.77379 14.8333 7.70837 14.8333C9.46192 14.8333 11.065 14.1968 12.3064 13.1471L15.2039 16.0446C15.3202 16.1602 15.473 16.2188 15.6235 16.2188C15.7739 16.2188 15.9282 16.161 16.043 16.0446C16.2766 15.8126 16.2766 15.4374 16.0446 15.2054ZM1.77087 7.70834C1.77087 4.43479 4.43483 1.77084 7.70837 1.77084C10.9819 1.77084 13.6459 4.43479 13.6459 7.70834C13.6459 10.9819 10.9819 13.6458 7.70837 13.6458C4.43483 13.6458 1.77087 10.9819 1.77087 7.70834Z"
+            ></path>
+          </svg>
+          <input
+            class="w-full text-md bg-transparent text-neutral-50 placeholder:text-neutral-500 focus:outline-none"
+            placeholder="Search"
+          />
+        </div>
+
+        <span class="text-neutral-200 text-center">Selected : </span>
+        <div
+          class="my-4 group flex items-center w-3/12 px-4 gap-x-4 p-2 rounded-full border bg-searchbar-fill border-twitter-default"
+        >
+          <svg
+            class="fill-twitter-default"
+            xmlns="http://www.w3.org/2000/svg"
+            width="17"
+            height="17"
+            viewBox="0 0 17 17"
+            fill="none"
+          >
+            <path
+              d="M16.0446 15.2054L13.1471 12.3079C14.1961 11.065 14.8334 9.46109 14.8334 7.70834C14.8334 3.77375 11.643 0.583336 7.70837 0.583336C3.77379 0.583336 0.583374 3.77375 0.583374 7.70834C0.583374 11.6429 3.77379 14.8333 7.70837 14.8333C9.46192 14.8333 11.065 14.1968 12.3064 13.1471L15.2039 16.0446C15.3202 16.1602 15.473 16.2188 15.6235 16.2188C15.7739 16.2188 15.9282 16.161 16.043 16.0446C16.2766 15.8126 16.2766 15.4374 16.0446 15.2054ZM1.77087 7.70834C1.77087 4.43479 4.43483 1.77084 7.70837 1.77084C10.9819 1.77084 13.6459 4.43479 13.6459 7.70834C13.6459 10.9819 10.9819 13.6458 7.70837 13.6458C4.43483 13.6458 1.77087 10.9819 1.77087 7.70834Z"
+            ></path>
+          </svg>
+          <input
+            class="w-full text-md bg-transparent text-neutral-50 placeholder:text-neutral-500 focus:outline-none"
+            placeholder="Search"
+          />
+        </div>
+      </section>
+
+      <!-- TWEET SECTION -->
+      <section class="py-8">
+        <div class="text-amber-600 py-2 text-lg font-bold">TWEET :</div>
+
+        <section class="text-neutral-50 flex flex-row gap-4">
+          <div>
+            <img
+              src="../public/assets/User avatar.png"
+              class="rounded-7xl h-9 w-9 flex-shrink-0"
+            />
+          </div>
+          <div class="flex-col space-y-4 content-between w-3/12">
+            <div class="flex space-x-2 w-full items-center">
+              <span class="font-semibold">Vijayashree Kairamkonda</span>
+              <span class="text-neutral-500">@vijayashree • 10h</span>
+            </div>
+            <div>
+              <p>Writing gets easier after the first sentence.</p>
+              <br />
+              <p>Lifting gets easier after the first set.</p>
+              <br />
+              <p>
+                People think and think and think until they finally decide to
+                act. Their attention shifts from internal to external, and the
+                difficulty they created in their mind vanishes.
+              </p>
+            </div>
+            <div class="flex justify-between items-center w-full">
+              <div class="flex gap-2 items-center">
+                <img src="../public/assets/comment-sv.svg" /><span>11</span>
+              </div>
+              <div class="flex gap-2 items-center">
+                <img src="../public/assets/retweet-sv.svg" /><span>269</span>
+              </div>
+              <div class="flex gap-2 items-center">
+                <img src="../public/assets/heart-sv.svg" /><span>1,869</span>
+              </div>
+              <div class="flex gap-2 items-center">
+                <img src="../public/assets/reach-sv.png" /><span>69.9k</span>
+              </div>
+              <div class="flex gap-2 items-center">
+                <img src="../public/assets/share-sv.svg" />
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <!-- CARD SECTION -->
+      <section class="bg-gray-700 flex p-2">
+        <div class="text-amber-600 py-4 text-lg font-bold">CARD:</div>
+        <div
+          class="h-26.6rem rounded-2xl m-2 w-30.1rem bg-black text-neutral-50"
+        >
+          <div class="flex items-center py-4 px-2 gap-4"></div>
+        </div>
+        <div
+          class="h-26.6rem rounded-2xl m-2 w-30.1rem bg-black text-neutral-50"
+        >
+          <div class="flex items-center py-4 px-2 gap-4">
+            <img src="../public/assets/cancel.svg" class="h-5 w-6" />
+            <span>Header</span>
+          </div>
+        </div>
+        <div
+          class="h-26.6rem rounded-2xl m-2 w-30.1rem bg-black text-neutral-50"
+        >
+          <div class="flex items-center py-4 px-2 gap-4">
+            <img src="../public/assets/cancel.svg" class="h-5 w-6" />
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
