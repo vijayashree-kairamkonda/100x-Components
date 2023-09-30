@@ -6,22 +6,19 @@
     <title>Document</title>
     <link href="../dist/output.css" rel="stylesheet" />
   </head>
-  <body class="dark:bg-black dark:text-white">
+  <body class="bg-white dark:bg-black dark:text-white">
     <main
-      class="flex md:flex-row items-center justify-between h-32rem my-6 px-6 flex-col sm:justify-around md:h-screen lg:mx-20"
+      class="flex md:flex-row items-center justify-between h-32rem my-6 px-0.5 flex-col md:justify-around md:h-screen lg:mx-20"
     >
-      <section>
-        <img
-          src="../public/assets/Vector.png"
-          class="h-6 sm:h-10 xl:h-screen"
-        />
+      <section class="flex flex-grow">
+        <img src="../public/assets/Vector.png" class="h-6 md:h-32rem" />
       </section>
-      <section class="flex flex-col space-y-2 lg:space-y-5">
+      <section class="flex flex-col justify-start space-y-2 lg:space-y-5">
         <h3 class="text-3xl md:text-5xl font-bold">Happening now</h3>
         <h4 class="text-lg md:text-2xl font-bold">Join today.</h4>
         <div>
           <button
-            class="bg-neutral-50 my-3 w-20.8rem py-2 font-bold text-neutral-1000 text-center rounded-full hover:bg-neutral-200 disabled:opacity-50"
+            class="bg-neutral-50 my-3 w-full sm:w-20.7rem py-2 font-bold text-neutral-1000 text-center rounded-full hover:bg-neutral-200 disabled:opacity-50"
           >
             Create account
           </button>
@@ -35,7 +32,7 @@
         <div>
           <p class="font-medium">Already have an account?</p>
           <button
-            class="w-20.8rem mt-5 py-2 border border-button-stroke text-twitter-default font-bold text-center rounded-full"
+            class="w-full sm:w-20.7rem mt-5 py-2 border border-button-stroke text-twitter-default font-bold text-center rounded-full"
           >
             Sign up
           </button>
