@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.{html,js}"],
+  darkMode: "class",
   theme: {
     extend: {
       fontFamily: {
@@ -58,6 +59,9 @@ module.exports = {
         "5xl": "4.0625rem",
         "6xl": "624.9375rem",
         "7xl": "12.5rem",
+      },
+      boxShadow: {
+        primary: "0px 8px 16px 0px rgba(0,0,0,0.25);",
       },
     },
   },
